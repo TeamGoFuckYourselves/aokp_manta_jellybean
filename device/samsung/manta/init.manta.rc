@@ -10,6 +10,11 @@ on init
     export EXTERNAL_STORAGE /storage/emulated/legacy
     export EMULATED_STORAGE_SOURCE /mnt/shell/emulated
     export EMULATED_STORAGE_TARGET /storage/emulated
+  
+    # create directory for mounting usb drives
+    mkdir /storage/usbdisk 0666 system system
+    symlink /storage/usbdisk /mnt/usbdisk
+    symlink /mnt/usbdisk /usbdisk
 
     # Support legacy paths
     symlink /storage/emulated/legacy /sdcard
