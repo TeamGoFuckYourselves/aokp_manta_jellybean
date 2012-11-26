@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     device/samsung/manta/manta-keypad.kl:system/usr/keylayout/manta-keypad.kl \
     device/samsung/manta/manta-keypad.kcm:system/usr/keychars/manta-keypad.kcm
 
-
 # Init files for booting smdk5250 with a manta image
 PRODUCT_COPY_FILES += \
     device/samsung/manta/init.smdk5250.rc:root/init.smdk5250.rc \
@@ -190,7 +189,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # set default USB configuration
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    persist.sys.usb.config=mtp
+    ro.secure=0 \
+    ro.debuggable=1 \
+    persist.sys.usb.config=mtp \
+    persist.service.adb.enable=1
 
 # for off charging mode
 PRODUCT_PACKAGES += \
