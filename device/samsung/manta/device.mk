@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/manta/manta-keypad.kl:system/usr/keylayout/manta-keypad.kl \
     device/samsung/manta/manta-keypad.kcm:system/usr/keychars/manta-keypad.kcm
 
+
 # Init files for booting smdk5250 with a manta image
 PRODUCT_COPY_FILES += \
     device/samsung/manta/init.smdk5250.rc:root/init.smdk5250.rc \
