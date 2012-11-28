@@ -56,7 +56,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/manta/window-anim/TwistedRubik.zip:system/addon.d/window-anim/TwistedRubik.zip \
     vendor/samsung/manta/window-anim/Vortex.zip:system/addon.d/window-anim/Vortex.zip \
     vendor/samsung/manta/window-anim/MIUI.zip:system/addon.d/window-anim/MIUI.zip \
-    vendor/samsung/manta/framework-flash.zip:system/addon.d/framework-flash.zip
+    vendor/samsung/manta/framework-flash.zip:system/addon.d/framework-flash.zip \
+vendor/samsung/manta/com.aokp.animation.manager.apk:system/app/com.aokp.animation.manager.apk \
+vendor/samsung/manta/com.aokp.ota.apk:system/app/com.aokp.ota.apk
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
