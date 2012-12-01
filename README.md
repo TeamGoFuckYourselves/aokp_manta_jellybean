@@ -1,4 +1,4 @@
 aokp_manta_jellybean
 ====================
 
-My bullshit for the Nexus 10
+Bullshit for the Nexus 10
